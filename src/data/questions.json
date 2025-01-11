@@ -1,0 +1,184 @@
+{
+  "basic_mathematics": {
+    "practice": [
+      {
+        "question_text": "What is 25% of 400?",
+        "options": ["50", "100", "150", "200"],
+        "correct_option": 1,
+        "explanation": "To find 25% of 400, multiply 400 by 0.25 = 100",
+        "difficulty": "easy"
+      },
+      {
+        "question_text": "Solve for x: 2x + 5 = 15",
+        "options": ["5", "10", "7.5", "8"],
+        "correct_option": 0,
+        "explanation": "Subtract 5 from both sides: 2x = 10, then divide by 2: x = 5",
+        "difficulty": "easy"
+      }
+    ],
+    "mock": [
+      {
+        "question_text": "If a triangle has angles measuring 45° and 45°, what is the measure of the third angle?",
+        "options": ["45°", "90°", "180°", "360°"],
+        "correct_option": 0,
+        "explanation": "The sum of angles in a triangle is 180°. If two angles are 45°, then 180° - (45° + 45°) = 90°",
+        "difficulty": "medium"
+      },
+      {
+        "question_text": "What is the area of a rectangle with length 8 units and width 6 units?",
+        "options": ["14", "24", "48", "56"],
+        "correct_option": 2,
+        "explanation": "Area of rectangle = length × width = 8 × 6 = 48 square units",
+        "difficulty": "medium"
+      }
+    ],
+    "daily": [
+      {
+        "question_text": "A shop offers a 20% discount on a shirt priced at ₹500. What is the final price?",
+        "options": ["₹400", "₹350", "₹300", "₹450"],
+        "correct_option": 0,
+        "explanation": "20% of 500 = 100, so final price = 500 - 100 = 400",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "advanced_mathematics": {
+    "practice": [
+      {
+        "question_text": "What is the derivative of sin(x)?",
+        "options": ["cos(x)", "-sin(x)", "tan(x)", "-cos(x)"],
+        "correct_option": 0,
+        "explanation": "The derivative of sin(x) is cos(x)",
+        "difficulty": "hard"
+      },
+      {
+        "question_text": "Solve the equation: ln(x) = 2",
+        "options": ["e", "e²", "2e", "2"],
+        "correct_option": 1,
+        "explanation": "If ln(x) = 2, then x = e² because e and ln are inverse functions",
+        "difficulty": "hard"
+      }
+    ],
+    "mock": [
+      {
+        "question_text": "What is the integral of 2x dx?",
+        "options": ["x²", "x² + C", "x² - C", "2x"],
+        "correct_option": 1,
+        "explanation": "The integral of 2x dx is x² + C, where C is the constant of integration",
+        "difficulty": "medium"
+      },
+      {
+        "question_text": "Find the limit as x approaches 0 of sin(x)/x",
+        "options": ["0", "1", "∞", "undefined"],
+        "correct_option": 1,
+        "explanation": "This is a famous limit that equals 1, which can be proven using L'Hôpital's rule",
+        "difficulty": "hard"
+      }
+    ],
+    "daily": [
+      {
+        "question_text": "What is the value of cos(π)?",
+        "options": ["0", "1", "-1", "undefined"],
+        "correct_option": 2,
+        "explanation": "cos(π) = -1 is a fundamental value in trigonometry",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "english": {
+    "practice": [
+      {
+        "question_text": "Choose the correct form of the verb: She ___ to the store yesterday.",
+        "options": ["go", "goes", "went", "gone"],
+        "correct_option": 2,
+        "explanation": "In past tense, the correct form is 'went'",
+        "difficulty": "easy"
+      },
+      {
+        "question_text": "Which word is a synonym for 'benevolent'?",
+        "options": ["kind", "cruel", "indifferent", "hostile"],
+        "correct_option": 0,
+        "explanation": "'Benevolent' means kind and generous",
+        "difficulty": "medium"
+      }
+    ],
+    "mock": [
+      {
+        "question_text": "Identify the correct sentence:",
+        "options": [
+          "Neither of the options are correct.",
+          "Neither of the options is correct.",
+          "None of the options are correct.",
+          "None of the options is correct."
+        ],
+        "correct_option": 1,
+        "explanation": "'Neither' is singular and takes a singular verb 'is'",
+        "difficulty": "hard"
+      },
+      {
+        "question_text": "Choose the correct word: The project was ___ by the deadline.",
+        "options": ["completed", "completing", "complete", "completion"],
+        "correct_option": 0,
+        "explanation": "The past participle 'completed' is correct in passive voice",
+        "difficulty": "medium"
+      }
+    ],
+    "daily": [
+      {
+        "question_text": "What is the plural of 'criterion'?",
+        "options": ["criterions", "criteria", "criterias", "criterion"],
+        "correct_option": 1,
+        "explanation": "The plural of 'criterion' is 'criteria', following Greek pluralization rules",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "logical_reasoning": {
+    "practice": [
+      {
+        "question_text": "If all flowers are plants, and all roses are flowers, what can be concluded?",
+        "options": [
+          "Some plants are roses",
+          "All roses are plants",
+          "All plants are roses",
+          "No roses are plants"
+        ],
+        "correct_option": 1,
+        "explanation": "Using syllogism: If A→B and B→C, then A→C. Therefore, all roses are plants",
+        "difficulty": "medium"
+      },
+      {
+        "question_text": "Which number comes next in the sequence: 2, 4, 8, 16, __?",
+        "options": ["20", "24", "32", "64"],
+        "correct_option": 2,
+        "explanation": "Each number is doubled to get the next number: 16 × 2 = 32",
+        "difficulty": "easy"
+      }
+    ],
+    "mock": [
+      {
+        "question_text": "If 'COMPUTER' is coded as 'RFUVQNPC', how is 'MOBILE' coded?",
+        "options": ["DKHANL", "FMJCPB", "NCJQMF", "WPIXMF"],
+        "correct_option": 2,
+        "explanation": "Each letter is replaced by the letter that comes 3 positions before it in the alphabet",
+        "difficulty": "hard"
+      },
+      {
+        "question_text": "In a row of children, Ravi is 7th from the left and 4th from the right. How many children are in the row?",
+        "options": ["10", "11", "12", "13"],
+        "correct_option": 0,
+        "explanation": "Position from left (7) + Position from right (4) - 1 = Total children (10)",
+        "difficulty": "medium"
+      }
+    ],
+    "daily": [
+      {
+        "question_text": "If RED is to BLUE as 6389 is to 2537, then GREEN is to YELLOW as?",
+        "options": ["86773", "96443", "86337", "96334"],
+        "correct_option": 2,
+        "explanation": "Each letter corresponds to a number based on its position in the alphabet",
+        "difficulty": "hard"
+      }
+    ]
+  }
+}
